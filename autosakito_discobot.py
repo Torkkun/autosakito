@@ -5,7 +5,7 @@ from discord.ext import commands, tasks
 from my_Scraping import Login
 
 if __name__ == '__main__':
-    TOKEN = "ODMwODE0MDQ0MDQxNzczMDY2.YHMJ3w.encBsiD5ctwWecMNqQAwqJCZK2c"
+    TOKEN = "discord_TOKEN"
     CHANNEL_ID = 831261636076634196
     client = discord.Client()
 
