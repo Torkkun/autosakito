@@ -76,7 +76,7 @@ def ticket_gatya():
 
 #configparserの宣言とiniファイルの読み込み
 config = configparser.ConfigParser()
-config.read('C://Users//******///******//autosakito_discordbot//my_Scraping//config.conf', encoding='utf-8')
+config.read('C://Users//******//******//autosakito_discordbot//my_Scraping//config.conf', encoding='utf-8')
 #config.iniから情報を読み出し
 read_email = config['DEFAULT']
 email = read_email.get('email')
