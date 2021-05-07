@@ -1,1 +1,1 @@
-# autosakito test
+# autosakito自分用
