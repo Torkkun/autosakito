@@ -5,7 +5,7 @@ from discord.ext import commands, tasks
 import Login
 
 if __name__ == '__main__':
-    TOKEN = "THIS' IS MY TOKEN"
+    TOKEN = "TOKEN"
     CHANNEL_ID = 831261636076634196
     client = discord.Client()
 
