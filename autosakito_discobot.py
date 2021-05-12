@@ -2,10 +2,10 @@ import discord
 import time
 from datetime import datetime
 from discord.ext import commands, tasks
-from my_Scraping import Login
+import Login
 
 if __name__ == '__main__':
-    TOKEN = "ODMwODE0MDQ0MDQxNzczMDY2.YHMJ3w.encBsiD5ctwWecMNqQAwqJCZK2c"
+    TOKEN = "THIS' IS MY TOKEN"
     CHANNEL_ID = 831261636076634196
     client = discord.Client()
 

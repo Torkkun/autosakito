@@ -76,23 +76,18 @@ def ticket_gatya():
 
 #configparserの宣言とiniファイルの読み込み
 config = configparser.ConfigParser()
-config.read('C://Users//kitagawa//VSCode_Python//autosakito_discordbot//my_Scraping//config.conf', encoding='utf-8')
+config.read('C://Users//*********//config.conf', encoding='utf-8')
 #config.iniから情報を読み出し
 read_email = config['DEFAULT']
 email = read_email.get('email')
-print(email)
-
 read_password = config['DEFAULT']
 password = read_password.get('password')
-print(password)
 
 #chromedriverの場所を指定
 driver = webdriver.Chrome("C://chromedriver//chromedriver.exe")
 
 driver.implicitly_wait(10)
 wait = WebDriverWait(driver, 4)
-
-print(email, password)
 #sakitoにアクセス・ユーザー名・パスワード入力
 driver.get("https://sakito.cirkit.jp/user/sign_in")
 login_email = driver.find_element_by_css_selector("#user_email")
