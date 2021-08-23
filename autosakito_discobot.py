@@ -61,11 +61,11 @@ if __name__ == '__main__':
             newpoint = int(Login.my_points(1)) - int(oldpoint)
             await channel.send(newpoint + "\n" + "ガチャ終了")
 
-    '''@tasks.loop(hours=1)
-    async def dayonece():
-        channel = client.get_channel(CHANNEL_ID)
-        result = Login.pointgatya()
-        await channel.send(result + "\n" + "ガチャ終了")'''
+    #@tasks.loop(hours=1)
+    #async def dayonece():
+    #    channel = client.get_channel(CHANNEL_ID)
+    #    result = Login.pointgatya()
+    #    await channel.send(result + "\n" + "ガチャ終了")
 
     @dayonece.before_loop
     async def before_dayonce():
